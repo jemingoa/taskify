@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Taskify</title>
+
+<link rel="stylesheet" href="Main.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+<h1>Taskify</h1>
+<button id="themeBtn">🌙</button>
+</header>
+
+<section class="stats">
+<div>Total <b id="total">0</b></div>
+<div>Completed <b id="completed">0</b></div>
+<div>Deleted <b id="deleted">0</b></div>
+<div>Edited <b id="edited">0</b></div>
+</section>
+
+<section class="task-input">
+
+<input id="taskInput" type="text" placeholder="Enter task...">
+
+<button id="addBtn">
+<i class="fa fa-plus"></i>
+</button>
+
+<button id="deleteSelected">
+<i class="fa fa-trash"></i>
+</button>
+
+<button id="sortAsc">
+<i class="fa fa-arrow-up"></i>
+</button>
+
+<button id="sortDesc">
+<i class="fa fa-arrow-down"></i>
+</button>
+
+<button id="resetSort">
+<i class="fa fa-rotate-left"></i>
+</button>
+
+</section>
+
+<ul id="taskList"></ul>
+
+</div>
+
+<script src="Main.js"></script>
+
+</body>
+</html>
